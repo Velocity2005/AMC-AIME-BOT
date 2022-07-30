@@ -255,7 +255,7 @@ def getAnswer(y, c, q):
     return answerList[int(probNum) - 1]
 
 
-t = open("token.txt")
+t = open("TOKEN.txt")
 token = t.read()
 t.close()
 
