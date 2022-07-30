@@ -255,4 +255,10 @@ def getAnswer(y, c, q):
     return answerList[int(probNum) - 1]
 
 
-bot.run('OTMxNjgxMzUyNTI3NTE5ODI2.YeH94A.eZNosa6MQIjqaxOn7BtBq-moRxg')
+t = open("token.txt")
+token = t.read()
+t.close()
+
+
+
+bot.run(t)
